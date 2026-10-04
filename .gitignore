@@ -1,0 +1,19 @@
+# Audio + artifacts — code only in this repo (W3' 2026-10-04)
+stems/
+tracks/
+.session_archive/
+*.wav
+*.mp3
+*.flac
+*.aif
+*.ogg
+*.m4a
+
+# Local-only scripts: personal paths / 2Pac refs — never publish
+combine_instrumental.py
+run_remix.py
+run_whole_buffer_remix.py
+
+__pycache__/
+*.pyc
+.venv/
